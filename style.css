@@ -1,0 +1,195 @@
+/*
+THEME NAME: Clean Yeti Basic
+THEME URI: http://cleanyetibasic.serenethemes.com
+DESCRIPTION: The ultimate in responsive themes, Clean Yeti Basic is a highly extensible WordPress Theme that incorporates Foundation 5 by Zurb.  Perfect for any blog and viewable on any device from mobile to desktop.  Find out more about Foundation 5 here: <a href="http://foundation.zurb.com/docs" target="blank">foundation.zurb.com/docs</a>
+VERSION: 2.5.0
+TAGS: blue, black, white, right-sidebar, responsive-layout, custom-menu, featured-images, full-width-template, microformats, post-formats, threaded-comments
+AUTHOR: Serene Themes
+AUTHOR URI: http://www.serenethemes.com
+License: GNU General Public License v2.0
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+.
+The cleanyetibasic Theme is copyright Serene Themes
+This theme used Thematic Framework as a building block
+The Thematic Theme is copyright Ian Stewart - http://themeshaper.com
+
+This theme also uses the Foundation Framework by ZURB
+Foundation 5: http://foundation.zurb.com
+Copyright: 2013, ZURB
+License: MIT License - http://www.opensource.org/licenses/mit-license.php
+
+Need support for Foundation 4? Revert to Clean Yeti Basic v1.1.0
+As of version 2.3.0 Clean Yeti Basic has included an scss compiler script to add the ability to customize foundation styles and components with ease
+
+This work, like WordPress, is released under GNU General Public License, version 2 (GPL).
+.
+
+*/
+
+html,
+body {
+	font-size: 100%;
+	-ms-word-wrap: break-word;
+	word-wrap: break-word;
+}
+
+body {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+}
+
+.keystroke, kbd, code, pre {
+  font-family: "Ubuntu Mono", sans-serif;
+  font-weight: bold;
+  color: #373737;
+}
+
+.border-top {
+	border-top: 1px solid #373737;
+	padding-top: 1.25em;
+	margin-top:  1.25em;
+}
+
+.nav-next {
+	float: right !important;
+}
+
+.nav-previous {
+	float: left !important;
+}
+
+.tabs dd {
+    border: 1px solid #e2e2e2;
+}
+
+.accordion .content.active {
+    border: 1px solid #e2e2e2;
+}
+
+.tabs-content .content p, .tabs-content .content .comments-link {
+    padding: 0 10px 0 10px;
+}
+
+ul.footerlink {
+    margin-top: 1em;
+}
+
+.entry-content img {
+    height:auto;
+    margin: 0 0 18px 0;
+    max-width:100%;
+}
+.alignleft,
+img.alignleft {
+	float: left;
+    margin-right:20px;
+}
+.alignright,
+img.alignright {
+	display: block;
+	float: right;
+    margin-left:20px;
+}
+.aligncenter,
+img.aligncenter {
+	margin-left:auto;
+	margin-right:auto;
+	display: block;
+	clear: both;
+}
+.wp-caption {
+	text-align: center;
+	margin-bottom:18px;
+	max-width: 96%;
+}
+.wp-caption img {
+	margin: 0;
+	padding: 0;
+	border: 0 none;
+}
+.wp-caption p.wp-caption-text {
+	margin: 0;
+	padding:5px;
+}
+.gallery img {
+	margin:0;
+}
+
+.gallery-caption {
+	font-size: 85%;
+	color: #999999;
+}
+
+.wp-smiley { /* Prevent the smileys from breaking line-height */
+	max-height:12px;
+	margin:0 !important;
+}
+
+
+.clearfix:before,
+.clearfix:after,
+.widgetcontainer:before,
+.widgetcontainer:after {
+	content: " ";
+	display: table;
+}
+
+.clearfix:after,
+.widgetcontainer:after {
+	clear: both;
+}
+
+.clearfix,
+.widgetcontainer {
+	zoom:1;
+}
+
+.bypostauthor {
+}
+
+.entry-meta {
+	font-size: 85%;
+}
+
+.section-container {
+	margin-top: 1.25em;
+}
+
+.pageready {
+	visibility: hidden;
+}
+
+.copyright {
+	margin-top: 1.25em;
+}
+
+ol#comments-list,
+ol#comments-list ul.children {
+        list-style-type: none;
+}
+
+#access {
+    margin-bottom: 20px;
+    margin-bottom: 1.25em;
+}
+
+#footer-credits p {
+    font-size: 67%;
+    color: #666666;
+}
+
+.sticky {
+}
+
+/* Admin bar bug for screens less than 600px */
+@media screen and (max-width: 600px) {
+    #wpadminbar {
+        position: fixed;
+    }
+}
